@@ -13,6 +13,6 @@ public class LogsController: Controller
     public async Task <IActionResult> Index()
     {
         var requests = await _repo.GetRequests();
-        return View("LogsIndex.cshtml", requests);
+        return View("Index", requests);
     }
 }

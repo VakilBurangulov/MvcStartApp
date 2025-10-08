@@ -22,12 +22,12 @@ namespace MvcStartApp.Controllers
 
         public async Task <IActionResult> Index()
         {
-            return View("Index.cshtml");
+            return View("Index");
         }
 
         public IActionResult Privacy()
         {
-            return View("Privacy.cshtml");
+            return View("Privacy");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

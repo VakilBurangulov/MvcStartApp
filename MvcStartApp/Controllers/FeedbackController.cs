@@ -7,7 +7,7 @@ public class FeedbackController: Controller
     [HttpGet]
     public IActionResult Add()
     {
-        return View("Add.cshtml");
+        return View("Add");
     }
 
     [HttpPost]
